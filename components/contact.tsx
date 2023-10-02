@@ -10,7 +10,6 @@ import toast from "react-hot-toast";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
-  console.log({ ref });
 
   return (
     <motion.section
